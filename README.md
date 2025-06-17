@@ -9,9 +9,9 @@ A solução é composta por três partes principais:
 
 Um equipamento portátil baseado em **ESP32**, equipado com sensores para a coleta dos sinais vitais e um display OLED para exibição local dos dados. Este dispositivo realiza a leitura em tempo real, conecta-se à rede Wi-Fi e envia as informações para o servidor por meio do protocolo **MQTT**.
 
-## 🌐 Servidor Linux com Broker MQTT e API
+## 🌐 Serviços em NodeJS de Broker MQTT e API
 
-No servidor, um **Broker MQTT** (implementado utilizando Node.js) recebe os dados enviados pelos dispositivos. Em seguida, uma **API** processa e armazena essas informações em um banco de dados, tornando-as acessíveis para os usuários finais.
+Com NodeJs foi criado um **Broker MQTT** recebe os dados enviados pelos dispositivos. Em seguida, uma **API** processa e armazena essas informações em um banco de dados, tornando-as acessíveis para os usuários finais.
 
 ## 💻 Aplicação Web (Sistema 7LIFE)
 
