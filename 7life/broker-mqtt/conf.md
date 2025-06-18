@@ -41,6 +41,7 @@ DB_NAME=sistema7life
 
 PORT_MQTT=1883
 WS_PORT=8083
+```
 
 ## 📥 Instalando as Dependências
 
@@ -48,7 +49,7 @@ Antes de iniciar o Broker MQTT, é necessário instalar as dependências do proj
 
 Execute o seguinte comando no terminal, dentro da pasta do projeto:
 
-```bash
+```cmd
 npm install
 ```
 
@@ -58,7 +59,7 @@ Esse comando irá baixar todas as bibliotecas listadas no arquivo package.json.
 
 Após a instalação das dependências e a configuração do arquivo .env, inicie o Broker executando:
 
-```bash
+```cmd
 npm start
 ```
 
