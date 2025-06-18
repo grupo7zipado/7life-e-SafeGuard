@@ -60,6 +60,6 @@ Após a instalação das dependências e a configuração do arquivo .env, inici
 
 ```bash
 npm start
+```
 
-bash```
 Isso irá iniciar o serviço do Broker MQTT conforme as configurações definidas.
