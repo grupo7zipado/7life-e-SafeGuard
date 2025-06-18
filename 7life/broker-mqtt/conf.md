@@ -50,6 +50,7 @@ Execute o seguinte comando no terminal, dentro da pasta do projeto:
 
 ```bash
 npm install
+```
 
 Esse comando irá baixar todas as bibliotecas listadas no arquivo package.json.
 
@@ -58,7 +59,7 @@ Esse comando irá baixar todas as bibliotecas listadas no arquivo package.json.
 Após a instalação das dependências e a configuração do arquivo .env, inicie o Broker executando:
 
 ```bash
-
 npm start
 
+bash```
 Isso irá iniciar o serviço do Broker MQTT conforme as configurações definidas.
