@@ -13,16 +13,16 @@ Crie um arquivo chamado `.env` na raiz do projeto com as seguintes variáveis:
 
 | Variável   | Descrição                                  |
 |------------|--------------------------------------------|
-| `VITE_WS_URL` | URL de conexão WebSocket com o Broker MQTT (ex: `ws://localhost:8083`) |
-| `VITE_API_URL` | URL de acesso à API (ex: `http://localhost:3000`) |
+| `WS_URL` | URL de conexão WebSocket com o Broker MQTT (ex: `ws://localhost:8083`) |
+| `API_URL` | URL de acesso à API (ex: `http://localhost:3000`) |
 
 ---
 
 ## ✅ Exemplo de `.env`
 
 ```env
-VITE_WS_URL=ws://localhost:8083
-VITE_API_URL=http://localhost:3000
+WS_URL=ws://localhost:8083
+API_URL=http://localhost:3000
 ```
 
 ## 📥 Instalando as Dependências
