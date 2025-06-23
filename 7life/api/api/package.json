@@ -1,0 +1,32 @@
+{
+  "name": "api_tcc_redes",
+  "version": "1.0.0",
+  "description": "aqi do tcc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grupo7zipado/API_TCC_REDES.git"
+  },
+  "author": "gabriell122",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grupo7zipado/API_TCC_REDES/issues"
+  },
+  "homepage": "https://github.com/grupo7zipado/API_TCC_REDES#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

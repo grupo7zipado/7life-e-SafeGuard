@@ -1,0 +1,75 @@
+.container {
+  height: 24vh;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #4b2354;
+  margin-bottom: 2vh;
+  border-bottom: 0.4vh solid #4b2354;
+}
+
+/*style cards*/  
+.card{
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, 0.3s;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight:735 ;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 250px;
+  width: 18vw;
+  gap:0.8vh;
+}
+
+.card:hover{
+  transition: 0.3s;
+  width: 18.5vw;
+}
+/* estilizano os dados apresentados */
+.metric-um {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+}
+.bpm {
+  background: #f4a3a3;
+  color: #b22222;
+}
+
+.metric-dois {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 10px;
+}
+.temp {
+  background: #fdb44b;
+  color: #d35400;
+}
+
+.metric-tres {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+}
+.spo2 {
+  background: #e0e0e0;
+  color: #4b2354;
+}

@@ -1,0 +1,72 @@
+.icon-chat {
+  position: fixed;
+  top: 10vh;
+  right: 20px;
+  background-color: #5c38be;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.tituloChat{
+  color: #000000;
+}
+
+.mini-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #5f2fb9d7;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    z-index: 1000;
+}
+
+.enviar{
+ text-align: center;
+  margin: 0 0 10px 0 ;
+}
+
+.envio{
+  color: rgb(245, 245, 245);
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.textarea-chat {
+  width: 95%;          
+  height: 95px;
+  border-radius: 5px;
+  padding: 5px;
+  resize: none;
+  display: block;      
+  margin: 0 auto; 
+  background-color: #383838; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.enviar-button {
+  padding: 6px 12px;
+  background-color: #331085;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.enviar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+

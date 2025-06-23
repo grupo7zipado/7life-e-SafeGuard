@@ -1,0 +1,98 @@
+:root {
+    /* Cores principais (roxos e azuis escuros) */
+    --primary-bg: #3d387f;     /* Fundo principal */
+    --secondary-bg: #3d387f;   /* Fundo secundário */
+    --accent-bg: #3d387f;      /* Destaque / hover / bordas */
+  
+    /* Campos de entrada e áreas escuras */
+    --input-bg: #1f0849;       /* Input escuro */
+    --input-border: #4b478a;   /* Borda de input / realce */
+  
+    /* Texto */
+    --text-light: #ffffff;
+    --text-dark: #000000;
+  
+    /* Botões */
+    --btn-bg: #ffffff;
+    --btn-hover: #d6d6d6;
+    --btn-dark-hover: #3a375c; /* Hover para botões escuros */
+  
+    /* Extras */
+    --border-radius: 0.5vh;
+    --transition-speed: 0.3s;
+  }
+
+.area-sobre {
+    background: rgba(44, 40, 99, 0.2); /* var(--primary-bg) com opacidade */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: var(--border-radius);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 6vh 4vw;
+    color: var(--text-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+  }
+  
+  .titulo-sobre {
+    font-size: 2.5rem;
+    border-bottom: 3px solid var(--accent-bg);
+    padding-bottom: 1vh;
+  }
+  
+  .sub-area {
+    background: rgba(34, 31, 75, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2vh 2vw;
+    border-radius: var(--border-radius);
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vh;
+  }
+  
+  .subtext {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--text-light);
+  }
+  
+  .text-sobre {
+    font-size: 0.95rem;
+    color: var(--text-light);
+  }
+  
+  .area-projeto {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-light);
+    padding: 3vh 3vw;
+    border-radius: var(--border-radius);
+    width: 100%;
+    max-width: 1000px;
+    line-height: 1.8;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .titulo-projeto {
+    font-size: 2rem;
+    color: var(--text-light);
+    margin-bottom: 2vh;
+    border-left: 5px solid var(--highlight);
+    padding-left: 1vw;
+  }
+  
+  .texto-projeto {
+    font-size: 1rem;
+    white-space: pre-line;
+    text-align: justify;
+  }
+
+  

@@ -1,0 +1,72 @@
+:root {
+    /* Cores principais (roxos e azuis escuros) */
+    --primary-bg: #3d387f;     /* Fundo principal */
+    --secondary-bg: #3d387f;   /* Fundo secundário */
+    --accent-bg: #3d387f;      /* Destaque / hover / bordas */
+  
+    /* Campos de entrada e áreas escuras */
+    --input-bg: #110f2b;       /* Input escuro */
+    --input-border: #4b478a;   /* Borda de input / realce */
+  
+    /* Texto */
+    --text-light: #ffffff;
+    --text-dark: #ffffff;
+  
+    /* Botões */
+    --btn-bg: #ffffff;
+    --btn-hover: #d6d6d6;
+    --btn-dark-hover: #3a375c; /* Hover para botões escuros */
+  
+    /* Extras */
+    --border-radius: 0.5vh;
+    --transition-speed: 0.3s;
+  }
+
+.usuariosesp {
+    background-color: var(--secondary-bg);
+  }
+  
+  .usuariosespcorpointerno {
+    background-color: var(--btn-hover);
+    color: var(--text-dark);
+  }
+  
+  .cadastrar-button {
+    width: 55%;
+    border-radius: 2.3vh;
+    cursor: pointer;
+    border: none;
+    background-color: var(--btn-bg);
+    color: var(--text-dark);
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cadastrar-button:hover {
+    background-color: var(--btn-hover);
+  }
+  
+  .selectue {
+    text-align: center;
+    color: var(--text-light);
+    background-color: var(--secondary-bg);
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .usuariosesp {
+      height: 400px;
+    }
+  
+    .titleselect {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .w045_80 {
+      width: 80%;
+      text-align: center;
+    }
+  }

@@ -1,0 +1,46 @@
+.logset{
+    background-color: #676b8c;
+    width: 80%;
+ 
+    height: 50px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin: 2%;
+    border: solid 0.5px #f3f3f3; 
+    border-radius: 9.7vh;
+    
+}
+
+.com-log {
+   
+   height: 50px;
+   text-align: center;
+   align-content: center;
+   
+}
+.titulo-log{
+    font-size: 0.7rem;
+    color: #000003;
+}
+
+.info-log{
+    font-size: 0.9rem;
+    color: black;
+}
+
+@media (max-width: 460px) {
+    .logset{
+       width: 90vw;
+   
+    }
+    .info-log{
+     font-size: 0.6rem;
+    }
+    .titulo-log{
+        font-size: 0.5rem;
+      
+    }
+   }

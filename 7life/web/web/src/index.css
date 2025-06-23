@@ -1,0 +1,316 @@
+
+:root {
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  
+  line-height: 1.5;
+  font-weight:  735;
+  font-family: "Montserrat", sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* INICIO-HEADER */
+
+.header-buttons {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header-button:hover {
+  background: #333;
+}   
+
+/* FINAL-HEADER */
+
+
+/*INICIO-MIDDELE */
+
+/* Organiza todos os cards existentes*/
+
+
+/* Remove a barra de rolagem de vista, caso queira apenas estilizar*/
+.meio-pagina::-webkit-scrollbar {
+  display: none; /* Chrome, Safari e Edge */
+}
+
+/* FINAL-MIDDLE */
+
+
+
+
+/* 
+
+.w? = width px;
+.w0? = width %;
+.wmax? = max-width px;
+.wmax0? = max-width %;
+.wmin? = min-width px;
+.wmin0? = min-width %;
+
+*/
+.reset{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.ww1{
+  width: 100vw;
+}
+
+.w1{
+    width: 100%;
+}
+.w090{
+    width: 90%;
+}
+.w080{
+    width: 80%;
+}
+.w060{
+    width: 60%;
+}
+.w050{
+    width: 50%;
+}
+
+.w045{
+  width: 45%;
+}
+.w040{
+    width: 40%;
+}
+
+.w035{
+    width: 35%;
+}
+.w025{
+    width: 25%;
+}
+.w020{
+    width: 20%;
+}
+.w160{
+    width: 160px;
+}
+.w200{
+    width: 200px;
+}
+.w500{
+    width: 500px;
+}
+.w600{
+    width: 600px;
+}
+.w800{
+    width: 800px;
+}
+
+.wmin100{
+    min-width: 100px;
+}
+.wmin150{
+    min-width: 150px;
+}
+.wmin200{
+    min-width: 200px;
+}
+.wmin250{
+  min-width: 250px;
+}
+.wmin300{
+  min-width: 300px;
+}
+.wmin600{
+    min-width: 600px;
+}
+
+.wmax090{
+    max-width: 90%;
+}
+.hh1{
+  height: 100vh;
+}
+
+
+.h1{
+    height: 100%;
+}
+.h050{
+    height: 50%;
+}
+.h30{
+    height: 30px;
+}
+.h50{
+    height: 50px;
+}
+.h70{
+    height: 70px;
+}
+.h100{
+    height: 100px;
+}
+.h160{
+    height: 160px;
+}
+.h200{
+    height: 200px;
+}
+.h300{
+    height: 300px;
+}
+.h400{
+    height: 400px;
+}
+.hmin100{
+    min-height: 100px;
+}
+.hmin200{
+    min-height: 200px;
+}
+.hmin300{
+    min-height: 300px;
+}
+.hv100{
+    height: 100vh;
+}
+
+.hvmin90{
+    min-height: 90vh;
+}
+
+.hvmax90{
+    max-height: 90vh;
+}
+
+.pt20{
+    padding-top: 20px;
+}
+
+.p005{
+    padding: 5%;
+}
+.p004{
+    padding: 4%;
+}
+.p002{
+    padding: 2%;
+}
+.mt20{
+    margin-top: 20px;
+}
+.m004{
+    margin: 4%;
+}
+.m001{
+  margin: 1%;
+}
+.m002{
+    margin: 2%;
+}
+.ml010{
+    margin-left: 10%;
+}
+.mr010{
+    margin-right: 10%;
+}
+.mb010{
+    margin-bottom: 10%;
+}
+.mt010{
+    margin-top: 10%;
+}
+
+
+.fs1{
+   font-size: 1rem; 
+}
+.fs1_5{
+    font-size: 1.5rem;
+}
+.fs2{
+    font-size: 2rem;
+}
+
+
+
+.df{
+    display: flex;
+}
+
+.ac{
+    align-items: center;
+}
+
+.jcc{
+    justify-content: center;
+}
+
+.jcfe{
+    justify-content: flex-end;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.jcsa{
+    justify-content: space-around;
+}
+.jcse{
+    justify-content: space-evenly;
+}
+
+.fdr{
+    flex-direction: row;
+}
+
+.fdc{
+    flex-direction: column;
+}
+
+.fww{
+    flex-wrap: wrap;
+}
+.tac{
+    text-align: center;
+}
+
+.br5{
+    border-radius: 5px;
+}
+
+.br20{
+    border-radius: 20px;
+}
+
+.brtop20{
+    border-radius: 20px 20px 0 0;
+}
+
+.brbot20{
+    border-radius: 0 0 20px 20px;
+}
+
+
+.tal{
+    text-align: left;
+}
+.tar{
+    text-align: right;
+}
+.tac{
+    text-align: center;
+}
+
+
+

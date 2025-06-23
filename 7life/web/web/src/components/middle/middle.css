@@ -1,0 +1,54 @@
+
+/* Organiza todos os cards existentes*/
+.meio-pagina {
+    margin-top: 10vh;
+    align-items: center;
+    width: 100vw ;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    justify-content: center;
+    top: 8.2vh;
+    
+  
+} 
+
+.meio-pagina::-webkit-scrollbar {
+    display: none; 
+}
+
+.Requests {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+    z-index: 1000;
+  }
+  
+  .RequestCard {
+    background-color: #f0f8ff;
+    border-left: 4px solid #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    min-width: 220px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

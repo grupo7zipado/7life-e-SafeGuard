@@ -1,0 +1,234 @@
+/* Estiliza o cabeçalho fixo no topo da tela */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+:root {
+    --shadow-color: #9ea5ff;
+    --shadow-color-light: white;
+  }
+  
+.header {
+    padding: 2px;
+    z-index: 2; 
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 8.4vh; 
+    position: absolute; 
+    background: #000000; 
+    color: rgb(255, 255, 255); 
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    flex-direction: column;
+  
+    border-bottom: 2.5px solid  #889ee9; 
+}
+
+
+.header-buttons {
+    transition: 1s;
+    text-align: left;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between; 
+ 
+  
+}
+
+
+.header-button-menu {
+    transition: 1s;
+    margin-right: 3%;        
+    background: #000000;
+    border: none;
+    cursor: pointer; 
+    height: 60px; 
+    width: 100px;
+   
+ 
+}
+
+
+.header-button:hover {
+    transition: 1s;
+    background: #000000;
+}   
+
+.logoproj{
+    position: relative;
+ 
+    width: 8rem;
+    height: 7vh; 
+    max-height: 13vh;
+    object-fit: cover;
+    background-color: transparent;
+
+}
+.img-logo{
+    max-width: 12rem;
+    max-height: auto;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -4.4vw;
+ 
+}
+
+
+
+
+.header-button-saida {
+    transition: 1s;
+    background: #000000;
+    border: none;
+    padding: 1%;
+    cursor: pointer;
+    height: 60px; 
+    width: 100px;
+
+}
+
+.header-button-saida:hover{
+    transition: 1s;
+    background: #0f0f0f;
+    border: none;
+    padding: 1%;
+    cursor: pointer;
+    height: 100%;
+    width: 100px;
+    border-radius: 0.7vh;
+
+}
+
+
+.button-menu {
+    transition: 1s;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+.button-saida {
+    transition: 1s;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+
+
+
+.menu-card {
+    transition: 0.2s;
+    position: absolute;
+    top: 8.2vh;
+    left: 0vh;
+    background: #000000;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 80px;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    min-width: 200px;
+}
+
+
+.menu-item {
+    transition: 0.2s;
+    color: white;
+    display: flex;
+    justify-self: flex-start;
+    background: none;
+    border: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 1.5vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 735;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+}
+
+
+.menu-item:hover {
+    animation: neon 3s infinite;
+    transition: 0.2s;
+    background: #221e29;
+}
+
+
+
+
+.mensagem-saida {
+    transition: 0.2s;
+    position: absolute;
+    right: 2px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    top: 100%;
+    white-space: nowrap;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.header-button-saida:hover .mensagem-saida {
+    transition: 0.2s;
+    opacity: 1; 
+}
+
+
+@media (max-width: 460px) {
+    header-button{
+       max-width: 100px;
+       width: 0.4vw;
+       max-height: 60px;
+       height: 2vh;
+   
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes neon {
+    0% {
+      text-shadow: 0 0 1px var(--shadow-color-light), 0 0 2px var(--shadow-color);
+    }
+    50% {
+      text-shadow: 0 0 2px var(--shadow-color-light), 0 0 4px var(--shadow-color);
+    }
+    100% {
+      text-shadow: 0 0 1px var(--shadow-color-light), 0 0 2px var(--shadow-color);
+    }
+  }
+
+  
